@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(232, 246, 255);
+  background-color: rgb(0, 0, 0);
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-top: 56px;
   display: flex;
@@ -12,12 +12,13 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #428fbb;
+  background: #f8ef00;
   height: 56px;
   /* padding-left: 15px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 #header span {
@@ -32,7 +33,7 @@ body {
 
 
 #container {
-  background-color: #428fbb;
+  background-color: #f8ef00;
   box-shadow: 2px 2px 5px#000;
   width: 50%;
   min-width: 700px;
@@ -59,12 +60,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 110px;
   margin-left: 10px;
   border-radius: 4px;
   cursor: pointer;
   height: 35px;
-  background: #0160A2;
+  background: #000000;
   color: #FFF;
   font-size: 20px;
 }
@@ -83,7 +84,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #fff;
+  background: rgb(255, 255, 255);
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 20px;
@@ -94,7 +95,7 @@ body {
   width: 90%;
 }
 .completeText {
-  color: lightgrey;
+  color: rgb(0, 0, 0);
   text-decoration: line-through;
 }
 
